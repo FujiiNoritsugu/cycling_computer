@@ -1,0 +1,39 @@
+name: cycling_computer
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  geolocator: ^13.0.0
+  permission_handler: ^11.3.0
+  intl: ^0.19.0
+  wakelock_plus: ^1.2.8
+  # オンラインマップ（Googleタブ）
+  google_maps_flutter: ^2.9.0
+  # オフラインマップ（OSMタブ）
+  flutter_map: ^7.0.2
+  flutter_map_tile_caching: ^9.1.4
+  latlong2: ^0.9.1
+  file_picker: 11.0.2
+  xml: ^6.0.0
+  path_provider: ^2.0.0
+  # 音声ターン案内
+  flutter_tts: ^4.2.0
+  cycling_analyzer:
+    path: ../cycling_analyzer
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
