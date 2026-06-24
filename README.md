@@ -15,15 +15,12 @@
 
 ## 📸 スクリーンショット / デモ
 
-> ※ブラウザで触れるデモはありません。実機での動作を画像/動画で示します。**画像は後日追加予定**（以下はプレースホルダ）。
+> ※ブラウザで触れるデモはありません。実機での動作を画像で示します。
 
-| サイコン画面（ライブ計測） | ルート画面（AI提案 + 地図） | 解析ダイアログ（Rust） |
+| サイコン画面 | ルート画面 | 解析ダイアログ |
 |---|---|---|
 | ![cycle screen](docs/images/screen-cycle.png) | ![route screen](docs/images/screen-route.png) | ![analysis](docs/images/screen-analysis.png) |
-
-| 走行中（ヘディングアップ + 音声案内） | 標高プロファイル | オフライン地図（OSM/FMTC） |
-|---|---|---|
-| ![riding](docs/images/riding.gif) | ![elevation](docs/images/elevation.png) | ![offline](docs/images/offline-map.png) |
+| 速度・高度・気温・降水確率のライブ表示 | AIルート提案と地図 + 標高プロファイル | Rustコアによる走行記録の詳細解析 |
 
 ---
 
